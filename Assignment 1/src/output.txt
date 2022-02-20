@@ -1,0 +1,541 @@
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:39:41 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+5
+number: D1234, name: John Doe
+starting balance: $6000.00, current balance: $6000.00
+type: GIC
+annual interest rate: 1.5%
+period of investment: 2 years
+new balance at maturity: $6181.35
+
+-------------------------------------
+
+number: E5678, name: John Doe
+starting balance: $15000.00, current balance: $15000.00
+type: CHEQUING
+service charge: $0.75
+number of transactions: 0
+total amount of service charge: $0.75
+
+-------------------------------------
+
+number: F9801, name: John Doe
+starting balance: $8000.00, current balance: $8000.00
+type: SAVINGS
+annual interest rate: 0.15%
+
+-------------------------------------
+
+number: A1234, name: Mary Ryan
+starting balance: $15000.00, current balance: $15000.00
+type: GIC
+annual interest rate: 2.5%
+period of investment: 4 years
+new balance at maturity: $16557.19
+
+-------------------------------------
+
+number: B5678, name: Mary Ryan
+starting balance: $15000.00, current balance: $15000.00
+type: CHEQUING
+service charge: $0.75
+number of transactions: 0
+total amount of service charge: $0.75
+
+-------------------------------------
+
+number: C9012, name: Mary Ryan
+starting balance: $8000.00, current balance: $8000.00
+type: SAVINGS
+annual interest rate: 0.15%
+
+-------------------------------------
+
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:39:59 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+1
+Please enter account type (SAV,CHEQ,GIC)
+SAV
+Please enter name, account number, balance, and interest rate at one line:
+John Smith, A1234, 1000, 3.6
+*** FAILED: ACCOUNT CANNOT BE OPENED! ***
+
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:40:10 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+1
+Please enter account type (SAV,CHEQ,GIC)
+SAV
+Please enter name, account number, balance, and interest rate at one line:
+Kevin Chan, A23456, 15000, 3.2
+number: A23456, name: Kevin Chan
+starting balance: $15000.00, current balance: $15000.00
+type: SAVINGS
+annual interest rate: 3.2%
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:40:26 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+5
+number: D1234, name: John Doe
+starting balance: $6000.00, current balance: $6000.00
+type: GIC
+annual interest rate: 1.5%
+period of investment: 2 years
+new balance at maturity: $6181.35
+
+-------------------------------------
+
+number: E5678, name: John Doe
+starting balance: $15000.00, current balance: $15000.00
+type: CHEQUING
+service charge: $0.75
+number of transactions: 0
+total amount of service charge: $0.75
+
+-------------------------------------
+
+number: F9801, name: John Doe
+starting balance: $8000.00, current balance: $8000.00
+type: SAVINGS
+annual interest rate: 0.15%
+
+-------------------------------------
+
+number: A1234, name: Mary Ryan
+starting balance: $15000.00, current balance: $15000.00
+type: GIC
+annual interest rate: 2.5%
+period of investment: 4 years
+new balance at maturity: $16557.19
+
+-------------------------------------
+
+number: B5678, name: Mary Ryan
+starting balance: $15000.00, current balance: $15000.00
+type: CHEQUING
+service charge: $0.75
+number of transactions: 0
+total amount of service charge: $0.75
+
+-------------------------------------
+
+number: C9012, name: Mary Ryan
+starting balance: $8000.00, current balance: $8000.00
+type: SAVINGS
+annual interest rate: 0.15%
+
+-------------------------------------
+
+number: A23456, name: Kevin Chan
+starting balance: $15000.00, current balance: $15000.00
+type: SAVINGS
+annual interest rate: 3.2%
+
+-------------------------------------
+
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:40:30 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+2
+Enter the account number of the account you want to close: 
+A23456
+
++ Account Deleted
+
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:40:45 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+4
+a. Search by account balance.
+b. Search by account name.
+c. Search by account number
+a
+Please enter the balance on the account:
+15000.00
+number: E5678, name: John Doe
+starting balance: $15000.00, current balance: $15000.00
+type: CHEQUING
+service charge: $0.75
+number of transactions: 0
+total amount of service charge: $0.75
+
+-------------------------------------
+
+number: A1234, name: Mary Ryan
+starting balance: $15000.00, current balance: $15000.00
+type: GIC
+annual interest rate: 2.5%
+period of investment: 4 years
+new balance at maturity: $16557.19
+
+-------------------------------------
+
+number: B5678, name: Mary Ryan
+starting balance: $15000.00, current balance: $15000.00
+type: CHEQUING
+service charge: $0.75
+number of transactions: 0
+total amount of service charge: $0.75
+
+-------------------------------------
+
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:40:53 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+4
+a. Search by account balance.
+b. Search by account name.
+c. Search by account number
+b
+Please enter the name on the account :
+Mary Ryan
+
+number: A1234, name: Mary Ryan
+starting balance: $15000.00, current balance: $15000.00
+type: GIC
+annual interest rate: 2.5%
+period of investment: 4 years
+new balance at maturity: $16557.19
+
+-------------------------------------
+
+number: B5678, name: Mary Ryan
+starting balance: $15000.00, current balance: $15000.00
+type: CHEQUING
+service charge: $0.75
+number of transactions: 0
+total amount of service charge: $0.75
+
+-------------------------------------
+
+number: C9012, name: Mary Ryan
+starting balance: $8000.00, current balance: $8000.00
+type: SAVINGS
+annual interest rate: 0.15%
+
+-------------------------------------
+
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:41:19 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+4
+a. Search by account balance.
+b. Search by account name.
+c. Search by account number
+c
+Please enter account number: D1234
+number: D1234, name: John Doe
+starting balance: $6000.00, current balance: $6000.00
+type: GIC
+annual interest rate: 1.5%
+period of investment: 2 years
+new balance at maturity: $6181.35
+
+-------------------------------------
+
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:41:40 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+4
+a. Search by account balance.
+b. Search by account name.
+c. Search by account number
+a
+Please enter the balance on the account:
+-1
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:41:52 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+3
+Please enter account number: E5678
+a. Deposit Money.
+b. Withdraw Money.
+Enter option: 
+a
+Deposit amount: 
+512.67
+$512.67 added to account.
+
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:42:07 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+3
+Please enter account number: C9012
+a. Deposit Money.
+b. Withdraw Money.
+Enter option: 
+a
+Deposit amount: 
+512.67
+$512.67 added to account.
+
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:42:15 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+3
+Please enter account number: F9801
+a. Deposit Money.
+b. Withdraw Money.
+Enter option: 
+b
+Withdraw amount: 
+100.00
+$100.00 withdrawed from account.
+
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:43:01 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+3
+Please enter account number: B5678
+a. Deposit Money.
+b. Withdraw Money.
+Enter option: 
+b
+Withdraw amount: 
+100.00
+$100.00 withdrawed from account.
+
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:43:18 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+3
+Please enter account number: C9012
+a. Deposit Money.
+b. Withdraw Money.
+Enter option: 
+a
+Deposit amount: 
+-123
+Unable to deposit to account.
+
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:43:29 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+3
+Please enter account number: A1234
+a. Deposit Money.
+b. Withdraw Money.
+Enter option: 
+a
+Deposit amount: 
+2222
+Unable to deposit to account.
+
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:44:04 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+3
+Please enter account number: F9801
+a. Deposit Money.
+b. Withdraw Money.
+Enter option: 
+b
+Withdraw amount: 
+56789
+Unable to withdraw from account.
+
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:44:17 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+5
+number: D1234, name: John Doe
+starting balance: $6000.00, current balance: $6000.00
+type: GIC
+annual interest rate: 1.5%
+period of investment: 2 years
+new balance at maturity: $6181.35
+
+-------------------------------------
+
+number: E5678, name: John Doe
+starting balance: $15000.00, current balance: $15000.00
+type: CHEQUING
+service charge: $0.75
+number of transactions: 1
+total amount of service charge: $0.75
+
+-------------------------------------
+
+number: F9801, name: John Doe
+starting balance: $8000.00, current balance: $7900.00
+type: SAVINGS
+annual interest rate: 0.15%
+
+-------------------------------------
+
+number: A1234, name: Mary Ryan
+starting balance: $15000.00, current balance: $15000.00
+type: GIC
+annual interest rate: 2.5%
+period of investment: 4 years
+new balance at maturity: $16557.19
+
+-------------------------------------
+
+number: B5678, name: Mary Ryan
+starting balance: $15000.00, current balance: $14899.25
+type: CHEQUING
+service charge: $0.75
+number of transactions: 1
+total amount of service charge: $1.50
+
+-------------------------------------
+
+number: C9012, name: Mary Ryan
+starting balance: $8000.00, current balance: $8512.67
+type: SAVINGS
+annual interest rate: 0.15%
+
+-------------------------------------
+
+### Welcome to the Bank of Kevin Chan ###
+Sun Mar 04 17:44:41 EST 2018
+
+1. Open an account.
+2. Close an account.
+3. Update an account.
+4. Search.
+5. List all accounts.
+6. Exit.
+
+Please enter your choice: 
+6
+Thank you!
